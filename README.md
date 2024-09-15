@@ -1,12 +1,21 @@
-# datafun-03-analytics
+# datafun-03-project
 
-Module 3 project for Analytics
+## Create Project Virtual Environment
 
-## commands used
-'''
-git add . 
-git commit -m
-git push -u
-'''
+On Windows, create a project virtual environment in the .venv folder. 
 
+```shell
 
+py -m venv .venv
+.venv\Scripts\Activate
+py -m pip install -r requirements.txt
+
+```
+
+## Git add and commit 
+
+```shell
+git add .
+git commit -m "add .gitignore, cmds to readme"
+git push origin main
+```
